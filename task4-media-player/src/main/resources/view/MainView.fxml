@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" onMouseDragged="#rootOnMouseDragged" onMousePressed="#rootOnMousePressed" prefHeight="469.0" prefWidth="730.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep12.task4.media_player.controller.MainViewController">
+   <children>
+      <ImageView fitHeight="575.0" fitWidth="730.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/vecteezy_online-gaming-screen-panel-and-border-png-for-gamers-with_13522316.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="70.0" layoutY="431.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="26.0" textAlignment="CENTER">
+         <graphic>
+            <Group>
+               <children>
+                  <ImageView fitHeight="24.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/pngwing.commedia25.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+         </graphic></Button>
+      <ImageView fitHeight="313.0" fitWidth="693.0" layoutX="15.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="345.0" layoutY="431.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="26.0" textAlignment="CENTER">
+         <graphic>
+            <Group>
+               <children>
+                  <ImageView fitHeight="24.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/pngwing.commedia24.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+         </graphic>
+      </Button>
+      <Button layoutX="626.0" layoutY="431.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="26.0" textAlignment="CENTER">
+         <graphic>
+            <Group>
+               <children>
+                  <ImageView fitHeight="24.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/pngwing.commedia26.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+         </graphic>
+      </Button>
+      <Button layoutX="268.0" layoutY="431.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="26.0" textAlignment="CENTER">
+         <graphic>
+            <Group>
+               <children>
+                  <ImageView fitHeight="24.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/pngwing.commedia23.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+         </graphic>
+      </Button>
+      <Button layoutX="430.0" layoutY="431.0" mnemonicParsing="false" onAction="#btnExitOnAction" prefHeight="31.0" prefWidth="26.0" textAlignment="CENTER">
+         <graphic>
+            <Group>
+               <children>
+                  <ImageView fitHeight="24.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/pngwing.commedia27.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
